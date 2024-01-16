@@ -1,0 +1,30 @@
+.card-container {
+  display: flex;
+  justify-content: space-around; /* Distribute cards evenly in the container */
+  flex-wrap: wrap; /* wrap cards to next line if the container is not wide enough */
+  margin-top: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: black;
+    text-align: center;
+  }
+  
+  h2 {
+    color: white;
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 200;
+    color: white;
+    font-size: large;
+  }
+  
