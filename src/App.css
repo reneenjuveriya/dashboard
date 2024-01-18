@@ -8,25 +8,31 @@
   padding: 20px;
   color: #fff;
   display: flex;
+  justify-content: space-between; /* Distribute cards evenly in the container */
+  flex-wrap: wrap; 
 }
 
 .navbar-logo{
-  align-items:end;
-  padding-left: 80%;
+  padding: auto;
+  /* align-items:end; */
+  /* padding-left: 80%; */
   padding-top: 10px;
   
 }
 
 
 button{
-    top:50%;
+    /* top:50%; */
     background-color:black;
     color: white;
     border: none;
-    border-radius:10px; 
-    text-align: center;
-    min-width: 50px;
-    min-height: 1px;
+    padding:auto;
+    border-radius:10px;
+    text-align: center; 
+    /* align-self: center; */
+    /* padding-right: 10px; */
+    /* min-width: 50px; */
+    /* min-height: 1px; */
     font-family: 'Times New Roman', Times, serif;
     font-style: bold;
     font-size:medium;
@@ -36,7 +42,7 @@ button{
 
 h1 {
   margin: 0;
-  position: relative;
+  /* position: relative; */
   font-family: 'Times New Roman', Times, serif;
   text-align: left;
   padding-left: 15px;
@@ -48,5 +54,23 @@ h1 {
   font-weight: 450;
   letter-spacing:1.2px;
 }
+
+
+.chart-container{
+  background-color: black;
+  padding-top: 5px;
+  margin-top: 15px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+  display: flex;
+  width: auto;
+  /* justify-content: space-between; */
+  justify-content: space-around; 
+  /* Distribute cards evenly in the container */
+  flex-wrap: wrap; 
+}
+
+
+
 
 

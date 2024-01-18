@@ -8,9 +8,9 @@ const Navbar = () => {
        
         <h1 className='navbar-heading'>SALES &
         <br></br>INVENTORY</h1>
-        <div className='navbar-logo'><FaUserCircle size={30}/>
+        <div className='navbar-logo'>
+        <button className='navbar-button'><FaUserCircle size={30}/>  User</button> 
         </div>
-        <button className='navbar-button'>User</button> 
       </div>
     </nav>
   );

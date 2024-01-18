@@ -1,0 +1,14 @@
+.horizontal-bar-chart{
+    margin-left: 25px;
+    padding: 20px;
+    padding-left: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    align-self: flex-end;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color:white;
+    margin-bottom: 30px;
+    
+  }

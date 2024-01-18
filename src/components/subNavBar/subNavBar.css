@@ -1,22 +1,23 @@
 
-.navbar2 {
+.subnav {
     background-color: black;
     margin-top:1px;
     color: #fff;
     display: flex;
     border-top: white;
     height: 70px;
+    margin-bottom: 2px;
     
   }
   
-  .nav-list2 {
+  .subnav-list {
     list-style-type: none;
     padding: 5px;
     display: flex;
     margin-left: 20px;
   }
   
-  .nav-item2 {
+  .subnav-item-links {
     padding:10px;
     color: white;
     text-decoration:none;
@@ -28,11 +29,9 @@
     display:block;
   }
 
-  .nav-item2:hover{
+  .subnav-item-links:active,.subnav-item-links:hover{
     color:white;
     text-decoration:underline;
     transition: text-decoration-color 300ms ease-in;
     text-underline-offset: 0.4em;
   }
-
-  

@@ -13,7 +13,7 @@ const LineChart = () => {
     };
   
     const data = {
-      labels: selectedDataPeriod === '8Months' ? ['January', 'February', 'March', 'April', 'May', 'June', 'July','August','September','October','November','December'] : ['June','July','August','September','October','November','December'],
+      labels: selectedDataPeriod === '12Months' ? ['January', 'February', 'March', 'April', 'May', 'June', 'July','August','September','October','November','December'] : ['June','July','August','September','October','November','December'],
       datasets: [
         {
           label: 'Clothing',
@@ -49,6 +49,7 @@ const LineChart = () => {
         y: {
           beginAtZero: true,
           ticks: {
+            
             color:'white',
             size:13,
             font: {
@@ -71,9 +72,10 @@ const LineChart = () => {
             value={selectedDataPeriod}
             onChange={handleChangeDataPeriod}
           >
-            <option value="8Months">12 Months</option>
-            <option value="4Months">6 Months</option>
+            <option value="12Months">12 Months</option>
+            <option value="6Months">6 Months</option>
           </select>
+          <div className='space'></div>
         </div>
         <Line data={data} options={options} />
       </div>
