@@ -8,7 +8,7 @@
   padding: 20px;
   color: #fff;
   display: flex;
-  justify-content: space-between; /* Distribute cards evenly in the container */
+  justify-content: space-between;
   flex-wrap: wrap; 
 }
 

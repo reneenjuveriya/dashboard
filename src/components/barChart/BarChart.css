@@ -20,9 +20,7 @@
     padding-bottom: 15px;
     display: flex;
     width: auto;
-    /* justify-content: space-between; */
     justify-content: space-around; 
-    /* Distribute cards evenly in the container */
     flex-wrap: wrap; 
  }
  
